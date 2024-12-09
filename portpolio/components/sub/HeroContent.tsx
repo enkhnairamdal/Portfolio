@@ -22,27 +22,28 @@ const HeroContent = () => {
             </motion.div>
             <motion.div 
             variants={slideInFromLeft(0.5)}
-            className='flex flex-col gap-6 mt-6 text-6xl text-bold text-white max-w-[600px] w-auto h-auto'
+            className='flex flex-col gap-6 mt-6 text-6xl text-bold text-white max-w-[700px] w-auto h-auto'
             >
                 <span>
 
                
-                Providing
-                <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'> the best </span>
-                project expreience
+                Таны төсөлд
+                <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'><br /> төгс туршлагыг </span>
+                бий болгохыг амлаж байна
                 </span>
             </motion.div>
             <motion.p 
             variants={slideInFromLeft(0.8)}
-            className='text-lg text-gray-400 my-5 max-w-[600px]'
+            className='text-lg text-gray-400 my-5 max-w-[700px]'
             >
-                I&apos;m a Full Stack Software Engineer with experience on Website, Mobile, and Software development. Check out my projets and skills.
+                Би вэбсайт, мобайл апп болон програм хангамж хөгжүүлэлтэд өргөн туршлагатай Full Stack програм хангамжийн инженер. Хэрэглэгч төвтэй шийдэл бүтээхэд дуртай бөгөөд үр ашигтай, өргөтгөх боломжтой, шинэлэг технологийн төслүүд дээр ажилладаг.
+Миний төслүүдийг үзэж, санаагаа хэрхэн бодит болгодгийг харж, ур чадваруудтай маань танилцаарай.
             </motion.p>
             <motion.a
             variants={slideInFromLeft(1)} 
             className='py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]'
             >
-                Learn More!
+                Дэлгэрэнгүй үзэх!
             </motion.a>
         </div>
         <motion.div
